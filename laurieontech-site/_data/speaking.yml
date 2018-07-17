@@ -1,0 +1,43 @@
+- conference: DC Full Stack
+  year: 2017
+  url: https://www.dcfullstack.com/
+  date: June 23rd, 2017
+  location: Arlington, VA
+  image: dcfullstack.jpg
+  talks:
+    - title: The Tablecloth Trick - Legacy Modernization with Minimal User Process Disruption
+      link:
+      video: https://www.youtube.com/watch?v=eS8tO3Z6E7U&t=29s
+
+- conference: The Lead Dev
+  year: 2018
+  url: https://austin2018.theleaddeveloper.com/
+  date: March 2nd, 2018
+  location: Austin, Texas
+  image: leaddevaustin2018.jpg
+  talks:
+    - title: Building Tech for the Non-Technical
+      link:
+      video: https://www.youtube.com/watch?v=abW35mR414I&t=4s
+
+- conference: NationJS
+  year: 2018
+  url: http://nationjs.com/main/index
+  date: May 18th, 2018
+  location: Washington, DC
+  image: nationjs.jpg
+  talks:
+    - title: How to Build a UI That Can Live Forever
+      link:
+      video:
+
+- conference: Kansas City Developer Conference
+  year: 2014
+  url: http://www.kcdc.info/
+  date: July 11th-13th, 2018
+  location: Kansas City, Missouri
+  image: kcdc.jpg
+  talks:
+    - title: Turning CNC Code into a UI - A Javascript Project
+      link:
+      video:

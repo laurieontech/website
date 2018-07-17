@@ -809,7 +809,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../img/headers/banner.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -909,7 +909,7 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../img/headers/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -1107,3 +1107,44 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 4fr 4fr 4fr;
+	grid-template-areas: "conference";
+	grid-gap: 10px;
+	padding: 1em;
+}
+
+.conference {
+	border: 1px solid grey;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+
+}
+.conference .selfie {
+	height: 50%;
+	width: 90%;
+	object-fit: contain;
+}
+
+.conference .date {
+	color: black;
+}
+
+.conference .conf {
+	color: purple;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+.conference .talk {
+	font-size: 75%;
+}
+
+.blog {
+	color: purple;
+	font-weight: bold;
+	border-bottom: none;
+}

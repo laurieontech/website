@@ -1,0 +1,30 @@
+<section id="speaking">
+  <div class="container">
+    <h2>Appearances</h2>
+      <div class="wrapper">
+        {% for speaking in site.data.speaking reversed %}
+        <div class="conference">
+          <p class="date">{{ speaking.date }}</p>
+          <img class="selfie" src="/img/speaking/{{ speaking.image }}"/>
+          <br/>
+          <a class="conf" target="_blank" href="{{ speaking.url }}">{{ speaking.conference}}</a>
+          <p class="location">{{ speaking.location }}</p>
+          <ul>
+            {% for talk in speaking.talks %}
+            <li class="talk">
+              {{ talk.title}} {% if talk.video %} ( <a target="_blank" href="{{ talk.video }}">Video</a>) {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+    </div>
+    <h2>Current Talks</h2>
+    <h4>The Forever UI</h4>
+    <p>How do you build a tool that can live forever? A tool that can evolve along with updates, and new hardware and ever changing technical specs? This talk is about a tool that does just that. What it does. How it works. And how we built it.</p>
+    <h4>Building Tech for the Non-Technical</h4>
+    <p>Everyone has blindspots. For developers it is often taking for granted certain technical skill sets. So what happens when you need to build a system for people without those skills? How do you adjust? What do you use as a reference point for common knowledge? How do you get out of your own head?</p>
+    <h4>The Tablecloth Trick: Legacy Modernization Without User Process Disruption</h4>
+    <p>Everyone has encountered a system that just had to be upgraded. But often that happens when users are used to the system and aren’t looking for a change. This is a series of stories for how companies have tried and failed and learned along the way. You’ll come away with some new pitfalls to avoid.</p>
+  </div>
+</section>
