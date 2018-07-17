@@ -20,6 +20,17 @@
       link:
       video: https://www.youtube.com/watch?v=abW35mR414I&t=4s
 
+- conference: PyCon
+  year: 2018
+  url: https://us.pycon.org/2018/schedule/posters/list/
+  date: May 11-13, 2018
+  location: Cleveland, OH
+  image: pycon.jpg
+  talks:
+    - title: Your Pycon App Can Support Everything
+      link:
+      video:
+
 - conference: NationJS
   year: 2018
   url: http://nationjs.com/main/index
