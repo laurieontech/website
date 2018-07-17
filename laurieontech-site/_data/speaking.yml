@@ -1,7 +1,7 @@
 - conference: DC Full Stack
   year: 2017
   url: https://www.dcfullstack.com/
-  date: June 23rd, 2017
+  date: June 23, 2017
   location: Arlington, VA
   image: dcfullstack.jpg
   talks:
@@ -12,7 +12,7 @@
 - conference: The Lead Dev
   year: 2018
   url: https://austin2018.theleaddeveloper.com/
-  date: March 2nd, 2018
+  date: March 2, 2018
   location: Austin, Texas
   image: leaddevaustin2018.jpg
   talks:
@@ -23,7 +23,7 @@
 - conference: NationJS
   year: 2018
   url: http://nationjs.com/main/index
-  date: May 18th, 2018
+  date: May 18, 2018
   location: Washington, DC
   image: nationjs.jpg
   talks:
@@ -34,7 +34,7 @@
 - conference: Kansas City Developer Conference
   year: 2014
   url: http://www.kcdc.info/
-  date: July 11th-13th, 2018
+  date: July 11-13, 2018
   location: Kansas City, Missouri
   image: kcdc.jpg
   talks:
