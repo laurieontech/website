@@ -11,3 +11,5 @@ keywords: Laurie Barth, Laurieontech, speaker, women in tech, developer, enginee
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-sitemap

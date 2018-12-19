@@ -43,12 +43,55 @@
       video:
 
 - conference: Kansas City Developer Conference
-  year: 2014
+  year: 2018
   url: http://www.kcdc.info/
   date: July 11-13, 2018
   location: Kansas City, Missouri
   image: kcdc.jpg
   talks:
     - title: Turning CNC Code into a UI - A Javascript Project
+      link:
+      video:
+- conference: SeaGL
+  year: 2018
+  url: https://osem.seagl.org/conferences/seagl2018
+  date: Nov 9-10, 2018
+  location: Seattle, Washington
+  image: seagl.jpg
+  talks:
+    - title: An Intermediate Vocabulary of Tech
+      link:
+      video:
+- conference: Greater Than Code Podcast
+  year: 2018
+  url: https://www.greaterthancode.com/
+  date: Nov 21, 2018
+  location: 
+  image: headshot.jpg
+  talks:
+    - title: Episode 106 - Taking Up Space with Laurie Barth
+      link: 
+      video: https://www.greaterthancode.com/2018/11/21/106-taking-up-space-with-laurie-barth/
+- conference: Indy Code
+  year: 2019
+  url: https://indycode.amegala.com/
+  date: April 24-26, 2019
+  location: 
+  image: headshot.jpg
+  talks:
+    - title: How to Talk Like an Engineer - Communication as You Move Up the Ladder
+      link:
+      video:
+    - title: A Software Engineer's Guide to DevOps
+      link:
+      video:
+- conference: Women In Technology Summit - MidAtlantic
+  year: 2019
+  url: https://midatlantic.womenintechsummit.net/
+  date: March 28-29, 2019
+  location: 
+  image: headshot.jpg
+  talks:
+    - title: A Software Engineer's Guide to DevOps
       link:
       video:
