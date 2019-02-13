@@ -95,3 +95,13 @@
     - title: A Software Engineer's Guide to DevOps
       link:
       video:
+- conference: RevolutionConf
+  year: 2019
+  url: https://revolutionconf.com/
+  date: June 6-7, 2019
+  location: 
+  image: headshot.jpg
+  talks:
+    - title: A Software Engineer's Guide to DevOps
+      link:
+      video:
